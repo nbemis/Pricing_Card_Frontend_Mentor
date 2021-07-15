@@ -1,0 +1,154 @@
+html{
+  background-color:  #e6eff6;
+  font-family: 'Karla', serif;
+  box-sizing: border-box;
+}
+
+* {margin: 0; padding: 0;}
+
+*, *::before, *::after { 
+  box-sizing: inherit;
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4%;
+}
+.container{
+  float: none;
+  background-color: white;
+  box-shadow: 0px 0px 20px grey;
+  border-radius: 8px;
+  overflow: hidden;
+  /* margin: 20%;  */
+}
+
+.top-card{
+  float: inline-start;
+  width: 100%;
+  height: 45%;
+  padding: 30px 20px  15px 30px;
+  margin: 0;
+}
+
+.top-card  h3{
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 35px;
+}
+
+.top-card  h4{
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 15px;
+}
+
+.top-card p{
+  color:  hsl(218, 22%, 67%);
+  line-height: 1.6;
+}
+
+.bottom-card{
+  width: 100%;
+  height: 55%;
+}
+
+.bottom-left{
+  float:left;
+  display: block;
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 25px;
+}
+
+.bottom-left h4{
+  margin-bottom: 15px;
+}
+
+.bottom-left p{
+  font-size: .8rem;
+  margin-bottom: 40px;
+}
+
+#price-frequency, #price{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#price-frequency{
+  position: relative;
+  top: -3px;
+  font-size: .8rem;
+  opacity: .7;
+  margin-left: 5px;
+}
+
+#price{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.bottom-left button {
+  background-color: hsl(71, 73%, 54%);
+  color:hsl(204, 43%, 93%);
+  font-weight: 700;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 0px 20px grey;  
+}
+
+.bottom-right{
+  float: right;
+  background-color: #4abebd;
+  color: hsl(204, 43%, 93%);
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 25px;
+}
+
+
+.bottom-right ul{
+  padding: 0;
+  list-style-type: none;
+  font-size: .8rem;
+}
+
+li{
+padding-bottom: 5px;
+}
+
+
+button:hover{
+  cursor: pointer;
+  background-color:#4abebd;
+  transform: scale(1.03);
+  
+}
+
+
+@media (min-width: 576px) {
+
+  .container{
+  width: 600px;
+  height: 450px;
+  }
+
+  .bottom-left, .bottom-right{ 
+    width: 50%;
+  } 
+  
+  footer{
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    bottom: 0px;
+  }
+
+}
