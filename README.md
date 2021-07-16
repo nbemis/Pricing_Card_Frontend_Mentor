@@ -25,7 +25,7 @@ Users should be able to:
 - 
 ### Link
 
-- Solution URL: [Add solution URL here](https://nbemis.github.io/Pricing_Card_Frontend_Mentor/)
+- Solution URL: [Pricing-Card](https://nbemis.github.io/Pricing_Card_Frontend_Mentor/)
 
 ## My process
 This project was a part of an online fullstack roadmap by Zach Gollwitzer. It was one of the milestone projects encountered as a follower of the course. Therefore, the solution is a combination of my own individual effort mixed with guidance from his tutorial videos. I had attempted an individual solution first before reffering to the tutorial videos once I had gotten stuck and unable to find a solution to the CSS issues I was having. Furthermore, while in the tutorials, a complete Flexbox solution was presented, I opted to stay with non-Flexbox solution for the card itself and only utilized Flexbox to center the card on the page.
