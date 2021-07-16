@@ -113,6 +113,10 @@ main{
   padding: 25px;
 }
 
+.bottom-right h4{
+  margin-bottom: 15px;
+}
+
 
 .bottom-right ul{
   padding: 0;
