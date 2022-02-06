@@ -22,7 +22,7 @@ Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - See a hover state on desktop for the Sign Up call-to-action
-- 
+
 ### Link
 
 - Solution URL: [Pricing-Card](https://nbemis.github.io/Pricing_Card_Frontend_Mentor/)
@@ -36,7 +36,7 @@ This project was a part of an online fullstack roadmap by Zach Gollwitzer. It wa
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- 
+
 ### Continued development
 Since I did not focus on a Flexbox implementation from the beginning, I would like to retry the challenge utilizing Flexbox in every aspect of the project. I believe it will be an easier implementation while also giving me more exposure to the Flexbox structure; of which, I am still relatively new. 
 
